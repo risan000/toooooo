@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+body{
+    background-color: blue;
+    font-size: large;
+}
+.risan{
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 50%;
+    margin: 25px auto;
+}
+.risan input,label{
+    width:90%;
+    display: block;
+    margin:2px auto;
+    padding: 10px;
+    border: 0cap;
+    background-color: transparent;
+    
+    
+}
+.risan label{
+    font-size: 20px;
+}
+.risan input{
+    border: 2px solid black;
+}
+input::placeholder{
+    color: black;
+}
+input[type=submit]{
+    width:50%;
+    transition: ease-in 0.8s;
+    margin: 10px auto;
+
+}
+input[type=submit]:hover{
+   background-color: black;
+}
+label{
+ padding-top:15px;
+}
